@@ -1,15 +1,30 @@
 import React from "react";
 
-import { Box } from "@mui/material";
+import { Badge, Box, IconButton } from "@mui/material";
+import Ticket from "./Ticket";
+import User from "./User";
+import { Notifications } from "@mui/icons-material";
 
 function Navbar() {
   return (
     <Box
       display="flex"
+      alignItems="center"
       justifyContent="space-between"
-      padding="18px"
+      py="16px"
+      px="38px"
       borderBottom="solid 1px #EAEAEA"
-    ></Box>
+    >
+      <Ticket />
+      <Box display="flex" gap="16px">
+        <IconButton>
+          <Badge badgeContent={4} color="secondary" sx={{ color: "#8D81FF" }}>
+            <Notifications />
+          </Badge>
+        </IconButton>
+        <User />
+      </Box>
+    </Box>
   );
 }
 
