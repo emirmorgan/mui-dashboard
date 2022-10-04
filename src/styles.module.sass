@@ -10,3 +10,26 @@ $secondary-color: #ACA4FA
         box-shadow: 0 0 8px $primary-color !important
     span
         font-size: 13px
+
+.content_card
+    color: white
+    background-color: $secondary-color
+    padding: 16px
+    border-radius: 12px
+
+    transition: all 200ms ease-in-out
+    &:hover
+        box-shadow: 0 0 14px $primary-color
+        background-color: $primary-color
+        .content_cardbox
+            svg
+                color: #4d4d4d
+    .content_cardbox
+        display: flex
+        align-items: center
+        background-color: #CBC5FF
+
+        border-radius: 8px
+        padding: 12px
+        transition: all 200ms ease-in-out
+        

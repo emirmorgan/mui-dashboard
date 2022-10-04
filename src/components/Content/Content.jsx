@@ -1,11 +1,10 @@
-import { Container, Box } from "@mui/material";
+import { Container } from "@mui/material";
+import Cards from "./Cards";
 
 function Content() {
   return (
     <Container maxWidth="xl">
-      <Box display="flex" flexDirection="column" alignItems="center">
-        Content
-      </Box>
+      <Cards />
     </Container>
   );
 }
