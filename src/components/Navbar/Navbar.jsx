@@ -9,6 +9,10 @@ function Navbar() {
   return (
     <Box
       display="flex"
+      position="fixed"
+      backgroundColor="#FFF"
+      width="calc(100% - 279px)"
+      zIndex="1"
       alignItems="center"
       justifyContent="space-between"
       py="16px"

@@ -5,7 +5,7 @@ import CVETable from "./CVETable";
 
 function Content() {
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ marginTop: "72px" }}>
       <Cards />
       <Graphs />
       <CVETable />

@@ -67,7 +67,7 @@ const analyzeData = [
 function Graphs() {
   return (
     <Grid container spacing={2} marginTop={3} justifyContent="space-around">
-      <Grid item sm={12} lg={6}>
+      <Grid item xs={12} lg={6}>
         <Typography
           fontWeight="bold"
           fontSize={12}
@@ -79,7 +79,7 @@ function Graphs() {
         </Typography>
         <Graph data={threatData} datakey={"Threat"} />
       </Grid>
-      <Grid item sm={12} lg={6}>
+      <Grid item xs={12} lg={6}>
         <Typography
           fontWeight="bold"
           fontSize={12}

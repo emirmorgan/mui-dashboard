@@ -8,7 +8,12 @@ function Container() {
   return (
     <Box display="flex" height="100vh">
       <Sidebar />
-      <Box display="flex" flexDirection="column" width="100%">
+      <Box
+        display="flex"
+        flexDirection="column"
+        width="100%"
+        marginLeft="244px"
+      >
         <Navbar />
         <Content />
       </Box>

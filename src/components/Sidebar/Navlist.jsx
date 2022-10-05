@@ -22,8 +22,15 @@ import Styles from "../../styles.module.sass";
 
 function Navlist() {
   return (
-    <Box>
-      <List sx={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+    <Box overflow="auto">
+      <List
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "14px",
+          px: "8px",
+        }}
+      >
         <ListItem disablePadding="true">
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>

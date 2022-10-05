@@ -8,8 +8,12 @@ function Sidebar() {
   return (
     <Box
       display="flex"
+      position="fixed"
+      height="100%"
+      backgroundColor="#FFF"
       flexDirection="column"
-      minWidth="175px"
+      width="180px"
+      zIndex="2"
       px="32px"
       borderRight="solid 1px #EAEAEA"
     >

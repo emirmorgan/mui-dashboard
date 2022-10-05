@@ -18,6 +18,7 @@ function Graph({ data, datakey }) {
     <Box display="flex" justifyContent="center">
       <ResponsiveContainer width="95%" height={325}>
         <LineChart
+          width="100%"
           data={data}
           margin={{
             top: 5,
