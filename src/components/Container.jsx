@@ -12,7 +12,7 @@ function Container() {
         display="flex"
         flexDirection="column"
         width="100%"
-        marginLeft="244px"
+        marginLeft={{ sm: "0px", md: "244px" }}
       >
         <Navbar />
         <Content />

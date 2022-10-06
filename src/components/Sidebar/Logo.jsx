@@ -9,7 +9,7 @@ function Logo() {
       justifyContent="center"
       marginY="24px"
     >
-      <img src="src/assets/logo.png" alt="Logo" style={{ width: "80px" }} />
+      <img src="src/assets/logo.png" alt="Logo" width="80px" />
     </Box>
   );
 }

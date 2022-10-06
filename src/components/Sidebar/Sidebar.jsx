@@ -7,7 +7,7 @@ import Navlist from "./Navlist";
 function Sidebar() {
   return (
     <Box
-      display="flex"
+      display={{ xs: "none", sm: "none", md: "flex" }}
       position="fixed"
       height="100%"
       backgroundColor="#FFF"

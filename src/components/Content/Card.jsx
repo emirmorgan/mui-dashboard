@@ -21,7 +21,7 @@ function Card({ count, label }) {
         </Box>
       </Box>
       <Box>
-        <Typography fontSize="13px">{label}</Typography>
+        <Typography fontSize="12px">{label}</Typography>
       </Box>
     </Box>
   );

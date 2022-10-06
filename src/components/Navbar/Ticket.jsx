@@ -4,7 +4,7 @@ import React from "react";
 
 function Ticket() {
   return (
-    <Box display="flex">
+    <Box display="flex" marginLeft="12px">
       <Button
         startIcon={<Add />}
         display="flex"
