@@ -68,7 +68,11 @@ function Navbar() {
         gap="16px"
       >
         <Box width="60px" marginLeft="24px">
-          <img src="src/assets/logo.png" alt="Logo" width="100%"></img>
+          <img
+            src="https://github.com/emirmorgan/mui-dashboard/blob/master/src/assets/logo.png?raw=true"
+            alt="Logo"
+            width="100%"
+          ></img>
         </Box>
         <Box width="60px" marginRight="24px">
           <IconButton

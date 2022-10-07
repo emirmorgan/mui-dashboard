@@ -9,7 +9,11 @@ function Logo() {
       justifyContent="center"
       marginY="24px"
     >
-      <img src="src/assets/logo.png" alt="Logo" width="80px" />
+      <img
+        src="https://github.com/emirmorgan/mui-dashboard/blob/master/src/assets/logo.png?raw=true"
+        alt="Logo"
+        width="80px"
+      />
     </Box>
   );
 }

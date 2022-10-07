@@ -31,7 +31,7 @@ function User() {
       <Box display="flex" gap="4px">
         <Avatar
           alt="User image"
-          src="/src/assets/avatar.jpg"
+          src="https://github.com/emirmorgan/mui-dashboard/blob/master/src/assets/avatar.jpg?raw=true"
           sx={{ width: 36, height: 36 }}
         />
         <Tooltip title="Account settings">
