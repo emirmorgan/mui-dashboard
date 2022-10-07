@@ -7,6 +7,7 @@ import User from "./User";
 import {
   BugReport,
   Campaign,
+  Close,
   CrisisAlert,
   Dashboard,
   FindInPage,
@@ -76,7 +77,7 @@ function Navbar() {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
           >
-            <Menu fontSize="large" />
+            {open ? <Close fontSize="large" /> : <Menu fontSize="large" />}
           </IconButton>
         </Box>
         <MenuBox
