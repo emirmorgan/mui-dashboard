@@ -31,7 +31,7 @@ function Navlist() {
           px: "8px",
         }}
       >
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <Dashboard />
@@ -39,7 +39,7 @@ function Navlist() {
             <ListItemText primary="Dashboard"></ListItemText>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <Public />
@@ -47,7 +47,7 @@ function Navlist() {
             <ListItemText primary="Threat Map"></ListItemText>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <CrisisAlert />
@@ -55,7 +55,7 @@ function Navlist() {
             <ListItemText primary="All threats"></ListItemText>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <FindInPage />
@@ -63,7 +63,7 @@ function Navlist() {
             <ListItemText primary="Reports"></ListItemText>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <BugReport />
@@ -71,7 +71,7 @@ function Navlist() {
             <ListItemText primary="Blacklists"></ListItemText>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <Campaign />
@@ -79,7 +79,7 @@ function Navlist() {
             <ListItemText primary="Announcements"></ListItemText>
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding="true">
+        <ListItem disablePadding>
           <ListItemButton className={Styles.nav_button}>
             <ListItemIcon>
               <Help />

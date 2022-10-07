@@ -13,7 +13,6 @@ import {
 } from "recharts";
 
 function Graph({ data, datakey }) {
-  console.log(data);
   return (
     <Box display="flex" justifyContent="center">
       <ResponsiveContainer width="95%" height={325}>
